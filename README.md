@@ -1,5 +1,7 @@
-Cordial saludo
+Cordial saludo.
 # 🚀 Taller: Despliegue de Aplicación con Spring Boot, Docker y AWS EC2
+
+- Emanuel Orlando Cely Rincon
 
 > 📘 **Resumen:**  
 > Este proyecto consiste en crear una aplicacion web usando el micro-framework Spring donde se va a construir un container en Docker, luego se crea una maquina virtual (EC2) en AWS donde se despliga el contenedor previamente clonado de Docker Hub, tambien documentar el proceso completo de compilación, contenedorización y despliegue de una aplicación **Spring Boot** utilizando **Docker**, **Docker Hub** y una **instancia EC2 de AWS**.
