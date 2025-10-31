@@ -4,10 +4,10 @@ Cordial saludo.
 - Emanuel Orlando Cely Rincon
 
 > 📘 **Resumen:**  
-> Este proyecto consiste en crear una aplicacion web usando el micro-framework Spring donde se va a construir un container en Docker, luego se crea una maquina virtual (EC2) en AWS donde se despliga el contenedor previamente clonado de Docker Hub, tambien documentar el proceso completo de compilación, contenedorización y despliegue de una aplicación **Spring Boot** utilizando **Docker**, **Docker Hub** y una **instancia EC2 de AWS**.
+> Este proyecto consiste en crear una aplicacion web usando el micro-framework Spring donde se va a construir un container en Docker, luego se crea una maquina virtual (EC2) en AWS donde se despliega el contenedor previamente clonado de Docker Hub, tambien documentar el proceso completo de compilación, contenedorización y despliegue de una aplicación **Spring Boot** utilizando **Docker**, **Docker Hub** y una **instancia EC2 de AWS**.
 
 ### ✅ Requisitos para realizar el proyecto
-- Conocimientos en el lenguje de programacion Java y la herramienta Maven.  
+- Conocimientos en el lenguaje de programacion Java y la herramienta Maven.  
 - Tener instalado Docker Desktop.
 - Tener cuenta en Docker Hub.
 - Contar con una cuenta en AWS y creditos para crear una instancia.
@@ -22,7 +22,7 @@ Se crea una aplicacion Spring pequeña donde se crea 2 clases controlador: Hello
 Se importa las dependencias de Spark Java donde se agrega el codigo en el file pom.xml
 ![alt text](image-18.png)
 
-Se asegura que el proyecyo copile con la version 17 de Java
+Se asegura que el proyecto copile con la version 17 de Java
 ![alt text](image-19.png)
 
 Se asegura que el proyecto compile con el siguiente comando:
@@ -35,7 +35,7 @@ Se inicializa Spring en este caso con el siguiente comando:
 
 ![alt text](image-8.png)
 
-dando como resuiltado:
+dando como resultado:
 
 ![alt text](image-4.png)
 
@@ -77,11 +77,11 @@ Se crea la instancia:
 
 ![alt text](image-9.png)
 
-Se conecta y asi se veria la ocnfiguracion general:
+Se conecta y asi se veria la configuracion general:
 
 ![alt text](image-10.png)
 
-Se crea una carpeta donde se alamcena los pares de llaves:
+Se crea una carpeta donde se almacena los pares de llaves:
 
 ![alt text](image-11.png)
 
@@ -98,7 +98,7 @@ Se instala Docker:
 Se inicia el servicio de Docker
 - sudo service docker start
 
-Se configura el ususario para que no sea necesario usar "sudo", se sale e ingresa de nuevo a la maquina:
+Se configura el usuario para que no sea necesario usar "sudo", se sale e ingresa de nuevo a la maquina:
 - sudo usermod -a -G docker ec2-user
 
 ![alt text](image-14.png)
